@@ -3,8 +3,8 @@ userName ? console.log(`Hello,${userName}!`) : console.log("Hello!");
 const userQuestion = "Will I become a werewolf tonight?";
 console.log(`The user asked: ${userQuestion}`);
 const randomNumber = Math.floor(Math.random() * 8);
-const eightBall = "";
-switch (eightBall) {
+let eightBall = "";
+switch (randomNumber) {
   case 0:
   eightBall = "It is certain";
   break;
